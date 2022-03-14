@@ -1,0 +1,6 @@
+name: Caller
+on:
+  workflow_dispatch:
+jobs:
+  call:
+    uses: 'bbq-beets/anywherepilot/.github/workflows-lab/called.yaml@main'
