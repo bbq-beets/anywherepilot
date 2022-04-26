@@ -26,4 +26,4 @@ jobs:
     needs: [job_3]
     steps:
       - name: Run a one-line script
-        run: sleep 5
+        rn: sleep 5
